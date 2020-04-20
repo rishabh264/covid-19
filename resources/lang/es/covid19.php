@@ -1,0 +1,96 @@
+<?php
+
+return [
+    
+    'seo_description' => 'Covid-19 Ao es una plataforma y API angoleñas creadas para mostrar en tiempo real información sobre casos del virus corona detectados en el territorio angoleño, así como para permitir a los usuarios autodiagnosticarse (prueba en línea) a través de preguntas y respuestas',
+    'seo_keywords' => 'Angola, virus Corona, Covid-19, Api, Programadores, Desarrollo',
+    'langs' => 'Idiomas',
+    'lang' => 'Español',
+    'homepage' => 'Página de inicio',
+    'services' => 'Lista de servicios',
+    'services_description' => 'Encuentre aquí los diversos servicios que puede disfrutar sin salir de su hogar, proporcionando así una mejor cuarentena para usted y su familia.',
+    'services_description_2'=>'Haga clic en el botón "Lista de servicios" y descubra qué servicios puede solicitar sin salir de su hogar.',
+    'login' => 'Iniciar sesión',
+    'register' => 'Registrarse',
+    'total' => 'Total de casos',
+    'total_active' => 'Total casos activos',
+    'active' => 'Casos activos',
+    'confirm' => 'Casos confirmados',
+    'sospechosos' => 'Casos sospechosos',
+    'recovery' => 'recuperado',
+    'death' => 'Muertes',
+    'lastupdate' => 'Última actualización',
+    'footer_about' => 'Covid-19 Ao fue creado con el objetivo de informar al pueblo angoleño, para ayudar a combatir la pandemia. Di no a las noticias falsas, quédate en casa, cuídate a ti mismo y a tu familia.',
+    'more' => 'Más',
+    'all'=>'Todos los servicios',
+    
+    'no_more_cat' => 'No hay servicios en esta categoría',
+    'no_more_serv' => 'No hay más servicios para mostrar',
+    'failed' => 'Error al cargar',
+    'tryagain' => 'Inténtalo de nuevo',
+
+    'usefullinks' => 'Enlaces útiles',
+    'callsos' => 'Llamar a emergencia',
+    'who' => 'Organización Mundial de la Salud',
+    'menu' => 'Menú',
+    'api' => 'API (Documentación)',
+    'test' => 'Prueba',
+    'about' => 'Acerca de',
+    'about_description' => 'Este proyecto fue desarrollado por <a href="https://github.com/rishabh264/"> Rishabh Singh  </a>, un programador fullstack, estudiante de informática',
+    'contribución' => 'contribución',
+    'contribution_description' => 'Si es desarrollador, puede contribuir al proyecto, ya que es de código abierto. Si aún no desea contribuir al proyecto, quédese en casa y cumpla con la cuarentena.',
+    'test_header' => 'Prueba en línea Covid-19',
+    'test_p' => 'Este es un cuestionario que le permite tener fácilmente un diagnóstico de la enfermedad de Covid-19, causada por el nuevo virus Corona.',
+    'test_p2' => 'Las preguntas se basan en investigaciones realizadas por expertos de diferentes países y el resultado se basa en las respuestas',
+    'btn_start' => 'Iniciar la prueba',
+    
+    'btn_confirmation' => 'Confirmar la respuesta',
+    'result'=>'Resultado',
+    'result_good' => 'Te ves bien y no tienes síntomas de COVID-19. Haga clic en el botón "Consejos de prevención", continúe cuidando a usted y a su familia ',
+    'result_med' => 'No parece ser grave, sin embargo, le recomendamos que regrese a la prueba si tiene otros síntomas o signos. Manténgase advertido, cumpla con la cuarentena y en una llamada de emergencia 111.',
+    'result_bad' => 'Su caso es preocupante, vaya a la unidad hospitalaria más cercana',
+    'tips' => 'Consejos de prevención',
+    'call111' => 'Llamar 111',
+    'new_test' => 'Nueva prueba',
+    'q_fever' => '¿tuvo fiebre?',
+    
+    'yes' => "Sí",
+    'no' => "No",
+   
+    'q_physical_contact' => "¿Ha tenido contacto físico recientemente con alguien de un país con casos confirmados de Covid-19?",
+
+    'q_time_fever' => "¿Has tenido fiebre por mucho tiempo?",
+    
+    'two_less' => "Dos días o menos", 
+    'two_more' => "Más de dos días",
+    'q_temperature' => "¿Cuál es la temperatura más alta que midió?",
+    
+    'less_39' => "Menos de 39° C", 
+    'to_39' => "Desde 39° C",
+
+    'q_gender'=> "¿Cuál es su género?",
+    'g_f'=> "Femenino",
+    'g_m'=> "Hombre",
+
+    'q_old'=> "¿Tiene más de 65 años?",
+    'q_old_preg' => "¿Está embarazada o tiene más de 65 años?",
+    'q_place_50' => "¿Ha visitado recientemente lugares con más de 50 personas?",
+    'q_international_trip' => "¿Viajó internacionalmente recientemente?",
+    'q_approch' => "¿Tuviste una aproximación con alguien infectado?",
+    'q_symptoms' => "¿Tuvo alguno de estos síntomas?",
+    
+    's_coryza' => "Coryza",
+    's_stuffy_nose' => "Nariz tapada",
+    's_tiredness' => "Cansancio",
+    's_cough' => "Tos",
+    's_shortness_of_breath' => "Falta de aliento o dificultad para respirar",
+    's_headache' => "Dolor de cabeza",
+    's_body_aches' => "Dolor o malestar corporal",
+    's_sore_throat' => "Dolor de garganta",
+    's_diarrhea' => "Diarrea o dolor abdominal",
+    's_loss_of_smell' => "Pérdida del olfato",
+    's_loss_of_taste' => "Pérdida de sabor",
+    'q_took_medicines' => "¿Tomó algún medicamento para sus síntomas?",
+
+    'tips_header' => "Siga estos consejos, comparta con sus amigos y familiares, salve su vida y a sus seres queridos."
+];

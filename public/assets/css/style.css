@@ -1,0 +1,356 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+.unique-nav{
+    min-height: 2.5em;
+}
+.bg-unique {
+    # background-color: #666ce2!important;
+    background-color: #666ce2!important;
+}
+.btn-unique {
+    # color: #fff;background-color: #666ce2;border-color: #666ce2;
+    color: #fff;background-color: #666ce2;border-color: #666ce2;
+}
+.btn-unique:hover{color:#fff;background-color:#8b2930;border-color:#666ce2}
+.btn-unique.focus,.btn-unique:focus{box-shadow:0 0 0 .2rem rgba(255, 38, 121, 0.5)}
+.btn-unique.disabled,.btn-unique:disabled{color:#fff;background-color:#971f51;border-color:#a7285d}
+.btn-unique:not(:disabled):not(.disabled).active,.btn-unique:not(:disabled):not(.disabled):active,.show>.btn-unique.dropdown-toggle{color:#fff;background-color:#8b2930;border-color:#666ce2}
+.btn-unique:not(:disabled):not(.disabled).active:focus,.btn-unique:not(:disabled):not(.disabled):active:focus,.show>.btn-unique.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(255, 38, 121, 0.5)}
+
+.btn-outline-unique {color: #666ce2;border-color: #666ce2;}
+.btn-outline-unique:hover{color:#fff;background-color:#666ce2;border-color:#8b2930}
+.btn-outline-unique.focus,.btn-outline-unique:focus{box-shadow:0 0 0 .2rem rgba(255, 0, 85, 0.5)}
+.btn-outline-unique.disabled,.btn-outline-unique:disabled{color:#971f51;background-color:transparent}
+.btn-outline-unique:not(:disabled):not(.disabled).active,.btn-outline-unique:not(:disabled):not(.disabled):active,.show>.btn-outline-unique.dropdown-toggle{color:#fff;background-color:#c4313d;border-color:#ad2e34}
+.btn-outline-unique:not(:disabled):not(.disabled).active:focus,.btn-outline-unique:not(:disabled):not(.disabled):active:focus,.show>.btn-outline-unique.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(255, 0, 85, 0.5)}
+
+.my-card
+{
+    position:absolute;
+    left:40%;
+    top:-20px;
+    border-radius:50%;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    # background-color:#666ce2;
+     background-color: #666ce2;
+
+  }
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    # color: #666ce2 !important;
+    color: #666ce2!important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    # color: #666ce2 !important;
+    color: #666ce2!important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bar{
+    height: 4px;
+    width: 35px;
+    # background-color: #666ce2 !important;
+    background-color: #666ce2!important;
+}
+
+
+.unique-main{
+    min-height: calc(100vh - 20em - 2.5em);
+}
+
+footer.unique-footer {
+    min-height: 20em;
+    background: #222;
+    # border-top: 4px solid #666ce2; 
+     border-top: 4px solid #666ce2; 
+}
+footer.unique-footer .about {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center;
+}
+footer.unique-footer .about p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px;
+}
+footer.unique-footer .about .social-media {
+    margin-top: 15px;
+}
+footer.unique-footer .about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    # color: #666ce2;
+    color: #666ce2;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+footer.unique-footer .about .social-media ul li a:hover {
+    # background: #666ce2;
+    background: #666ce2;
+    color: #fff;
+    # border-color: #666ce2; 
+    border-color: #666ce2;
+}
+    footer.unique-footer .footer-info-single {
+    margin-top: 30px;
+}
+footer.unique-footer .footer-info-single .title {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 16px;
+    # border-left: 4px solid #666ce2;
+     border-left: 4px solid #666ce2;
+    padding-left: 5px;
+}
+footer.unique-footer .footer-info-single ul li a {
+    display: block;
+    color: #aaa;
+    padding: 2px 0;
+}
+footer.unique-footer .footer-info-single ul li a:hover {
+    text-decoration: inherit;
+    # color: #666ce2;
+    color: #666ce2;
+}
+p a {
+    # color: #666ce2;
+    color: #666ce2;
+}
+p a:hover {
+    color: #bb7378;
+    text-decoration: inherit;
+}
+footer.unique-footer .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #aaa;
+}
+  
+
+
+/*Services*/
+.category .nav-tabs .nav-link.active {
+    (?# color: #666ce2;)
+    color: #666ce2;
+    font-weight: bold;
+    border: 0px solid transparent;
+}
+.category .nav-tabs .nav-link {
+    color: #000;
+    border: 0px solid transparent;
+}
+.category .nav-tabs .nav-link:hover {
+    (?# color: #666ce2;)
+    color: #666ce2;
+    font-weight: 1000;
+    border: 0px solid transparent;
+}
+.category .nav-tabs {
+    border: 0px solid transparent;
+}
+.ads {
+    margin: 30px 0 30px 0;
+    
+}
+
+.ads .card-notify-badge {
+    position: absolute;
+    left: -10px;
+    top: -20px;
+   (?#  background: #666ce2;)
+    background: #666ce2;    
+        
+    text-align: center;
+    border-radius: 30px 30px 30px 30px; 
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+
+}
+
+
+
+.ads .card-detail-badge {      
+    (?# background: #666ce2;)
+     background: #666ce2;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 10px;        
+}
+.ads .description {   
+    overflow: hidden;   
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    max-height: 5em;
+    min-height: 5em;
+    font-size: 14px;
+    -webkit-box-orient: vertical;   
+}
+
+    
+
+.ads .card:hover {
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.ads .card-image-overlay {
+    font-size: 20px;
+    
+}
+
+
+.ads .card-image-overlay span {
+    display: inline-block;              
+}
+
+.ads .img-ad{
+    height: 16em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ads .ad-btn {
+    text-transform: uppercase;
+    width: 80px;
+    height: 40px;
+    border-radius: 80px;
+    font-size: 10px;
+    line-height: 35px;
+    text-align: center;
+    (?# border: 3px solid #666ce2;)
+    border: 3px solid #666ce2;
+    display: block;
+    text-decoration: none;
+    margin: 20px auto 1px auto;
+    color: #fff;
+    overflow: hidden;        
+    position: relative;
+   (?#  background-color: #666ce2;)
+   background-color: #666ce2;
+}
+}
+
+.ads .ad-btn:hover {
+   (?#  background-color: #666ce2;)
+   background-color: #666ce2;
+}
+    color: #666ce2;
+   (?#  border: 2px solid #666ce2;)
+    border: 2px solid #666ce2;
+    background: transparent;
+    transition: all 0.3s ease;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+}
+        
+
+.ads .ad-title h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
