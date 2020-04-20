@@ -70,20 +70,20 @@ class CategoriesController extends Controller
             $user->update(['image' => basename(Request::file('photo')->store('categories'))]);
         }
 
-        return Redirect::back()->with('success', 'Categoria actualizada.');
+        return Redirect::back()->with('success', 'Updated category.');
     }
 
     public function destroy(category $category)
     {
         $category->delete();
 
-        return Redirect::back()->with('success', 'Categoria eliminada.');
+        return Redirect::back()->with('success', 'Category deleted');
     }
 
     public function restore(category $category)
     {
         $category->restore();
 
-        return Redirect::back()->with('success', 'Categoria restaurada.');
+        return Redirect::back()->with('success', 'Category restored.');
     }
 }

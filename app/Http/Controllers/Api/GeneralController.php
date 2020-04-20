@@ -27,10 +27,10 @@
          
             return response()->json([
                 'success' => true,
-                'message' => "Operação realizada com sucesso.", 
+                'message' => "Operation performed successfully.", 
                 'data' => $data,
                 'status' => $status,
-                'license'   => 'This API was developed by Ravelino de Castro (https://github.com/ravelinodecastro) using official information from the government of angola (ministry of health) available at covid19.gov.ao'
+                'license'   => 'This API was developed by rishabh singh (https://github.com/rishabh264) using official information from the government websites'
             ]);
         }
 
@@ -42,10 +42,10 @@
          
             return response()->json([
                 'success' => true,
-                'message' => "Operação realizada com sucesso.", 
+                'message' => "Operation performed successfully.", 
                 'data' => $data,
                 'status' => $scraper->status == 1? 1: 2,
-                'license'   => 'This API was developed by Ravelino de Castro (https://github.com/ravelinodecastro) using official information from the government of angola (ministry of health) available at covid19.gov.ao'
+                'license'   => 'This API was developed by rishabh singh (https://github.com/rishabh264) using official information from the government websites'
             ]);
         }
       

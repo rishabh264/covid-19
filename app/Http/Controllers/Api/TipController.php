@@ -18,10 +18,10 @@ use App\Http\Controllers\Controller;
        
             return response()->json([
                 'success' => true,
-                'message' => "Operação realizada com sucesso.", 
+                'message' => "Operation performed successfully.", 
                 'data' => $tips,
                 'status' => 1,
-                'license'   => 'This API was developed by Ravelino de Castro (https://github.com/ravelinodecastro) using official information from the government of angola (ministry of health) available at covid19.gov.ao'
+                'license'   => 'This API was developed by rishabh singh (https://github.com/rishabh264) using official information from the government websites'
             ]);
          
         }

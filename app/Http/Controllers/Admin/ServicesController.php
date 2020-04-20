@@ -46,7 +46,7 @@ class ServicesController extends Controller
             'image' => Request::file('photo') ? basename(Request::file('photo')->store('services')) : null,
             ]);
 
-        return Redirect::route('services')->with('success', 'Serviço cadastrado.');
+        return Redirect::route('services')->with('success', 'Registered service.');
     }
 
     public function edit(Service $service)

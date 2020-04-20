@@ -22,12 +22,12 @@ use App\Http\Controllers\Controller;
             $others = $count>5?Category::whereStatus('1')->skip($skip)->take($limit)->get():[];
 
     
-            return response()->json(['message' => "Operação realizada com sucesso.",
+            return response()->json(['message' => "Operation performed successfully.",
              'main' => $main,
               'others' => $others,
               'success' => true,
               'status' => 1,
-                'license'   => 'This API was developed by Ravelino de Castro (https://github.com/ravelinodecastro) using official information from the government of angola (ministry of health) available at covid19.gov.ao'
+                'license'   => 'This API was developed by rishabh singh (https://github.com/rishabh264) using official information from the government websites'
               ]);
         }
         

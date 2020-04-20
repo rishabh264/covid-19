@@ -21,7 +21,7 @@
         return Inertia::render('Dashboard/Index',[
             'general' => $data,
             'configs' => Config::first(),
-            'date'=>  $data?($data->updated_at? $data->updated_at->format('d-m-Y'):$data->created_at->format('d-m-Y')):'Não actualizado'
+            'date'=>  $data?($data->updated_at? $data->updated_at->format('d-m-Y'):$data->created_at->format('d-m-Y')):'Not updated'
         ]);
     }
       
